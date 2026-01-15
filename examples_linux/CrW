@@ -1,5 +1,5 @@
 ACTYS
-/home/solps/mcnp_tools/ACTYS/Data
+/home/solps/ACTYS/Data
 
 ELE 1.0 KG 
 1
@@ -15,7 +15,7 @@ Cr51
 PPATH 2
 Cr50
 Cr52
-FLUX_FILE /home/solps/mcnp_tools/ACTYS/test_grp/src_org/tripoli_flux
+FLUX_FILE tripoli_flux
 
 INTR 1
 TIME 	100  S	FLUX   1.3E+16 0
