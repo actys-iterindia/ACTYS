@@ -1,7 +1,7 @@
 echo "--------------> Define ACTYS_HOME variable where Data folder is located e.g."
 echo ""
 
-echo "             export ACTYS_HOME=/home/ACTYS/Data"
+echo "             export ACTYS_HOME=/home/${USER}/ACTYS"
 echo "" 
 echo ""
 echo "=============> Enter the path for ACTYS_HOME variable"
@@ -29,6 +29,6 @@ mkdir -p ${act_home}/run
 cd ${act_home}/run
 cp ${act_home}/examples_linux/CrW ${act_home}/run/.
 cp ${act_home}/examples_linux/tripoli_flux ${act_home}/run/.
-echo './actyslinux CrW'
+echo `../actyslinux <<< "CrW"`
 
 
