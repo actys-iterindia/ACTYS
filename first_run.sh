@@ -29,6 +29,18 @@ mkdir -p ${act_home}/run
 cd ${act_home}/run
 cp ${act_home}/examples_linux/CrW ${act_home}/run/.
 cp ${act_home}/examples_linux/tripoli_flux ${act_home}/run/.
-echo `../actyslinux <<< "CrW"`
-
-
+echo CrW | ../actyslinux
+sleep 2
+echo ""
+echo ""
+echo "Showing comparison of CrW.out from standard run with run on this system for user $USER"
+echo ""
+echo "!IMPORTANT "
+echo " <<<< If there are significant difference in the output files. Please intimate to the actys@iterindia.in>>>"
+sleep 3
+echo "Press enter to show vimdiff comparison"
+read *
+vimdiff run/CrW.out examples_linux/CrW.out
+echo ""
+echo ""
+echo "If there are significant difference in the output files. Please intimate to the actys@iterindia.in"
