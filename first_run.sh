@@ -4,7 +4,7 @@ read actys_license
 echo "" 
 echo ""
 echo "--------------> Define ACTYS_HOME variable where Data folder is located e.g."
-echo""
+echo ""
 echo "" 
 echo "             export ACTYS_HOME=/home/${USER}/ACTYS"
 echo ""
