@@ -21,7 +21,8 @@ echo""
 echo "Copying license file to $act_home/Data"
 cp $actys_license ${act_home}/Data/.
 echo "Downloading EAF2010 libraries"
-wget https://git.oecd-nea.org/fispact/nuclear_data/-/blob/main/EAF2010data.tar.bz2
+wget https://git.oecd-nea.org/fispact/nuclear_data/-/raw/main/EAF2010data.tar.bz2?inline=false
+mv Data/EAF2010data.tar.bz2\?inline\=false Data/EAF2010data.tar.bz2
 echo "Doing untar of libraries"
 tar --extract --file=EAF2010data.tar.bz2 $(tar -tf EAF2010data.tar.bz2 | grep fus)
 mv EAF2010data EAF2010
@@ -30,7 +31,8 @@ find EAF2010 -type f -name '*fus*20100*' | while read f; do
     mv "$f" "$newname"
 done
 echo "Downloading bin boundaries"
-wget https://git.oecd-nea.org/fispact/nuclear_data/-/blob/main/ebins.tar.bz2
+wget https://git.oecd-nea.org/fispact/nuclear_data/-/raw/main/ebins.tar.bz2?inline=false
+mv ebins.tar.bz2\?inline\=false ebins.tar.bz2
 tar -xvjf ebins.tar.bz2
 echo "Doing example run to test"
 echo "Creating run directory if does not exits"
@@ -38,6 +40,9 @@ mkdir -p ${act_home}/run
 cd ${act_home}/run
 cp ${act_home}/examples_linux/CrW ${act_home}/run/.
 cp ${act_home}/examples_linux/tripoli_flux ${act_home}/run/.
+# correcting path of example input file
+sed -i "2s|.*|$act_home/Data|" CrW
+echo "now doing ACTYS run for CrW example input file in run directory"
 echo CrW | ../actyslinux
 sleep 2
 echo ""
@@ -46,7 +51,9 @@ echo "Showing comparison of CrW.out from standard run with run on this system fo
 echo ""
 echo "!IMPORTANT "
 echo " <<<< If there are significant difference in the output files. Please intimate to the actys@iterindia.in>>>"
-sleep 3
+sleep 2
+echo "Press Alt+F10"
+sleep 2
 echo "Press enter to show vimdiff comparison"
 read *
 vimdiff run/CrW.out examples_linux/CrW.out
