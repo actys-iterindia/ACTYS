@@ -35,11 +35,39 @@ else
     echo ""
     echo "=============> Enter the path for ACTYS_HOME variable" 
     read ACTYS_HOME
-        
+    
+    echo ""
+    echo "#  --- ACTYS_HOME path for actys runs -----"        
     echo "export ACTYS_HOME=$ACTYS_HOME" >> ~/.bashrc
     echo "-----> ACTYS_HOME saved to ~/.bashrc"
+    echo ""
 fi
+#exporting actylinux to bin path
+ACTYS_BIN="$ACTYS_HOME/actyslinux"
 
+echo "Checking PATH for ACTYS binaries..."
+
+# Check if the path is already in the current PATH variable
+if [[ ":$PATH:" == *":$ACTYS_BIN:"* ]]; then
+    echo "-----> $ACTYS_BIN is already in the current PATH."
+else
+    # Check if it's already written in .bashrc to avoid double-writing
+    if grep -q "$ACTYS_BIN" ~/.bashrc; then
+        echo "-----> Path found in .bashrc. Refreshing current session..."
+        export PATH="$ACTYS_BIN:$PATH"
+    else
+        echo "-----> Adding $ACTYS_BIN to PATH in .bashrc..."
+        # Append the export command to the end of .bashrc
+        echo "" >> ~/.bashrc
+        echo "# ACTYS Binary Path" >> ~/.bashrc
+        echo "export PATH=\"$ACTYS_BIN:\$PATH\"" >> ~/.bashrc
+	echo "# ----- ACTYS setting completed -------"
+        
+        # Update current session immediately
+        export PATH="$ACTYS_BIN:$PATH"
+        echo "-----> PATH updated successfully."
+    fi
+fi
 echo ""
 echo "ACTYS_HOME is set to $ACTYS_HOME"
 echo ""
