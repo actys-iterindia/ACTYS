@@ -29,6 +29,7 @@ The script
 User need to check ~/.bashrc file for ACTYS_HOME variable path. If it is not there set it manually.
 
 The actyslinux binaries are linked to $HOME/bin folder and can be called from anywhere.
+```
 
 2. How to run
 
