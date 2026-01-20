@@ -58,36 +58,34 @@ Before installing, ensure you have the following:
 
 ## 4. Directory structure
 
+```text
 ACTYS
-&nbsp;
 ├── ACTYS_EULA.pdf 
-&nbsp;
 ├── actyslinux 
-&nbsp;
 ├── ACTYS_Manual_v1.2.pdf 
-&nbsp;
-├── actyswindows.exe&nbsp;
-├── Data&nbsp;
-│   ├── actys_license_xx-xx-xx-xx-xx-xx&nbsp;
-│   ├── andra&nbsp;
-│   ├── attn_mat&nbsp;
-│   ├── EAF2010&nbsp;
-│   ├── list&nbsp;
-│   ├── list2&nbsp;
-│   ├── list_ele&nbsp;
-│   └── spectrum-actys&nbsp;
-├── examples_linux&nbsp;
-│   ├── CrW&nbsp;
-│   ├── CrW.out&nbsp;
-│   ├── CrW.path&nbsp;
-│   └── tripoli_flux&nbsp;
-├── examples_windows&nbsp;
-│   ├── CrW&nbsp;
-│   ├── CrW.path&nbsp;
-│   └── EU-FW&nbsp;
-├── first_run.sh&nbsp;
-├── README.md&nbsp;
-├── run&nbsp;
+├── actyswindows.exe
+├── Data
+│   ├── actys_license_xx-xx-xx-xx-xx-xx
+│   ├── andra
+│   ├── attn_mat
+│   ├── EAF2010
+│   ├── list
+│   ├── list2
+│   ├── list_ele
+│   └── spectrum-actys
+├── examples_linux
+│   ├── CrW
+│   ├── CrW.out
+│   ├── CrW.path
+│   └── tripoli_flux
+├── examples_windows
+│   ├── CrW
+│   ├── CrW.path
+│   └── EU-FW
+├── first_run.sh
+├── README.md
+├── run
+```
 
 ## 5. License
 
