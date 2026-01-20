@@ -116,7 +116,7 @@ Any result obtained by using actys to be published as per the agreed terms and c
 
 ### Any publication using ACTYS results should includeded followin reference in the publication.
 
-1) Development and validation of ACTYS, an activation analysis code, SC Tadepalli, P Kanth, G Indauliya, I Saikia, SP Deshpande, PV Subhash, Annals of Nuclear Energy 107, 71-81, 2017
+> 1) Development and validation of ACTYS, an activation analysis code, SC Tadepalli, P Kanth, G Indauliya, I Saikia, SP Deshpande, PV Subhash, Annals of Nuclear Energy 107, 71-81, 2017
 
 > 2) Composition Optimization Strategy Based on Multiple Radiological Responses for Materials in Spatially and Temporally Varying Neutron Fields, Priti Kanth , Sai Chaitanya Tadepalli , P.V. Subhash, Nuclear Fusion, 58 (12), 126019, 2018.
 
