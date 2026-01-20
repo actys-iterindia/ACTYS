@@ -58,10 +58,14 @@ Before installing, ensure you have the following:
 
 ## 4. Directory structure
 
-ACTYS&nbsp;
-├── ACTYS_EULA.pdf &nbsp;
-├── actyslinux &nbsp;
-├── ACTYS_Manual_v1.2.pdf &nbsp;
+ACTYS
+&nbsp;
+├── ACTYS_EULA.pdf 
+&nbsp;
+├── actyslinux 
+&nbsp;
+├── ACTYS_Manual_v1.2.pdf 
+&nbsp;
 ├── actyswindows.exe&nbsp;
 ├── Data&nbsp;
 │   ├── actys_license_xx-xx-xx-xx-xx-xx&nbsp;
