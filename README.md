@@ -1,15 +1,14 @@
-  # 1. ACTYS
+# ACTYS
 
-  This is version 1.2 of actys code.
+This is version 1.2 of actys code.
 
-  User is suggested to first run "first_run.sh" file from ACTYS main directory to set the # ACTYS (Actys-Iterindia)
+User is suggested to first run "first_run.sh" file from ACTYS main directory to set the ACTYS path and download necessary libraries.
 
 
 ![actys homepage](https:iterindia.in/actys)
 
-![Version](1.2)
 
-**ACTYS** is a specialized tool for nuclear data processing and activation analysis,.
+**ACTYS** is a specialized tool for nuclear data processing and activation analysis.
 
 
 ## 1. Quick Start
@@ -32,7 +31,7 @@ User need to check ~/.bashrc file for ACTYS_HOME variable path. If it is not the
 The actyslinux binaries are linked to $HOME/bin folder and can be called from anywhere.
 
 
-## 1. How to run
+## 2. How to run
 
 ACTYS examples are available in examples_linux folder under ACTYS folder.
 
@@ -46,7 +45,7 @@ actyslinux --help from any folder
 or ./actyslinux --help from ACTYS folder (if path is not set correctly).
 
 
-## 1. Prerequisites
+## 3. Prerequisites
 
 Before installing, ensure you have the following:
 
@@ -57,7 +56,7 @@ Before installing, ensure you have the following:
     * Minimum 2GB of free disk space for nuclear libraries
 
 
-## 1. Directory structure
+## 4. Directory structure
 
 ACTYS
 ├── ACTYS_EULA.pdf
@@ -86,7 +85,7 @@ ACTYS
 ├── README.md
 ├── run
 
-## 1. License
+## 5. License
 
 ACTYS is available for acedemic and research usage. 
 
@@ -97,17 +96,17 @@ https://github.com/actys-iterindia/ACTYS/blob/main/ACTYS_EULA.pdf.
 User need to email, filled and signed form to actys@iterindia.in to obtain license which is PC specific and non-transferable.
 
 
-## 1. Help and user feedback
+## 6. Help and user feedback
 
 For any help, to add more features or to report any problem, please write to actys@iterindia.in.
 
-## 1. Disclaimer
+## 7. Disclaimer
 
 ACTYS is a free code and provided 'AS IS', without any warranty of any kind, express or implied.
 
 Developer takes no responsibility of any type.
 
-## 1. Permissions
+## 8. Permissions
 
 The code must not be used for any commercial purpose.
 
