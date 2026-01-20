@@ -30,8 +30,7 @@ User need to check ~/.bashrc file for ACTYS_HOME variable path. If it is not the
 
 The actyslinux binaries are linked to $HOME/bin folder and can be called from anywhere.
 
-
-## 2. How to run
+2. How to run
 
 ACTYS examples are available in examples_linux folder under ACTYS folder.
 
@@ -45,7 +44,7 @@ actyslinux --help from any folder
 or ./actyslinux --help from ACTYS folder (if path is not set correctly).
 
 
-## 3. Prerequisites
+3. Prerequisites
 
 Before installing, ensure you have the following:
 
