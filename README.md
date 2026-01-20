@@ -31,7 +31,7 @@ User need to check ~/.bashrc file for ACTYS_HOME variable path. If it is not the
 The actyslinux binaries are linked to $HOME/bin folder and can be called from anywhere.
 ```
 
-2. How to run
+## 2. How to run
 
 ACTYS examples are available in examples_linux folder under ACTYS folder.
 
@@ -58,32 +58,32 @@ Before installing, ensure you have the following:
 
 ## 4. Directory structure
 
-ACTYS
-├── ACTYS_EULA.pdf
-├── actyslinux
-├── ACTYS_Manual_v1.2.pdf
-├── actyswindows.exe
-├── Data
-│   ├── actys_license_xx-xx-xx-xx-xx-xx
-│   ├── andra
-│   ├── attn_mat
-│   ├── EAF2010
-│   ├── list
-│   ├── list2
-│   ├── list_ele
-│   └── spectrum-actys
-├── examples_linux
-│   ├── CrW
-│   ├── CrW.out
-│   ├── CrW.path
-│   └── tripoli_flux
-├── examples_windows
-│   ├── CrW
-│   ├── CrW.path
-│   └── EU-FW
-├── first_run.sh
-├── README.md
-├── run
+ACTYS&nbsp;
+├── ACTYS_EULA.pdf&nbsp;
+├── actyslinux&nbsp;
+├── ACTYS_Manual_v1.2.pdf&nbsp;
+├── actyswindows.exe&nbsp;
+├── Data&nbsp;
+│   ├── actys_license_xx-xx-xx-xx-xx-xx&nbsp;
+│   ├── andra&nbsp;
+│   ├── attn_mat&nbsp;
+│   ├── EAF2010&nbsp;
+│   ├── list&nbsp;
+│   ├── list2&nbsp;
+│   ├── list_ele&nbsp;
+│   └── spectrum-actys&nbsp;
+├── examples_linux&nbsp;
+│   ├── CrW&nbsp;
+│   ├── CrW.out&nbsp;
+│   ├── CrW.path&nbsp;
+│   └── tripoli_flux&nbsp;
+├── examples_windows&nbsp;
+│   ├── CrW&nbsp;
+│   ├── CrW.path&nbsp;
+│   └── EU-FW&nbsp;
+├── first_run.sh&nbsp;
+├── README.md&nbsp;
+├── run&nbsp;
 
 ## 5. License
 
@@ -114,7 +114,7 @@ Any result obtained by using actys to be published as per the agreed terms and c
 
 ### Any publication using ACTYS results should includeded followin reference in the publication.
 
-> 1) Development and validation of ACTYS, an activation analysis code, SC Tadepalli, P Kanth, G Indauliya, I Saikia, SP Deshpande, PV Subhash, Annals of Nuclear Energy 107, 71-81, 2017
+1) Development and validation of ACTYS, an activation analysis code, SC Tadepalli, P Kanth, G Indauliya, I Saikia, SP Deshpande, PV Subhash, Annals of Nuclear Energy 107, 71-81, 2017
 
 > 2) Composition Optimization Strategy Based on Multiple Radiological Responses for Materials in Spatially and Temporally Varying Neutron Fields, Priti Kanth , Sai Chaitanya Tadepalli , P.V. Subhash, Nuclear Fusion, 58 (12), 126019, 2018.
 
