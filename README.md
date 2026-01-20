@@ -114,7 +114,7 @@ The code must not be used for any commercial purpose.
 
 Any result obtained by using actys to be published as per the agreed terms and conditions in the License Agreement.
 
-### Any publication using ACTYS results should includeded followin reference in the publication.
+### Any publication using ACTYS results must cite following references in the publication.
 
 > 1) Development and validation of ACTYS, an activation analysis code, SC Tadepalli, P Kanth, G Indauliya, I Saikia, SP Deshpande, PV Subhash, Annals of Nuclear Energy 107, 71-81, 2017
 
