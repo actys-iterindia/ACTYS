@@ -68,6 +68,7 @@ else
         echo "-----> PATH updated successfully."
     fi
 fi
+source ~/.bashrc
 echo ""
 echo "ACTYS_HOME is set to $ACTYS_HOME"
 echo ""
