@@ -88,12 +88,16 @@ Before installing, ensure you have the following:
     * Linux (Ubuntu/CentOS recommended)
 
     * wget and tar utilities
+	
+    * gnuplot
 
     * Minimum 2GB of free disk space for nuclear libraries
 ```
 ### 4.2 For windows
 ```text
-Windows 7 and above is required with powershell 2.0 and above.
+    * Windows 7 and above is required with powershell 2.0 and above.
+ 
+    * gnuplot for windows
 
 ```
 ## 5. Directory structure
